@@ -24,20 +24,20 @@
   - legs
   - feet
 - weapons
- - edged
-  - swords
-  - knives
-  - axes
- - blunt
-  - bat
-  - hammer
- - projectile
-  - bow
-  - slingshot
+  - edged
+    - swords
+    - knives
+    - axes
+  - blunt
+    - bat
+    - hammer
+  - projectile
+    - bow
+    - slingshot
 - backpack
- - food
- - survival items
- - games
+  - food
+  - survival items
+  - games
 
  ### Activity
  Take the above nested list of items and code them into a nested HTML list of unordered items.
