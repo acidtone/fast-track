@@ -75,3 +75,17 @@ Each page needs to include
 - secondary heading
 - at least one paragraph
 lorum ipsum text is fine. placeholder images are fine
+
+## The Box Model
+- height & width
+  - making a square
+- margins and padding
+- border and border-radius
+- length units
+  - absolute
+    - px, and a bunch of others you won't use
+  - relative
+    - percentage
+    - em/rem
+    - ch
+    - viewport
