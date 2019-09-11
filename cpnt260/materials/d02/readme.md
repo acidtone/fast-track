@@ -41,3 +41,37 @@
 
  ### Activity
  Take the above nested list of items and code them into a nested HTML list of unordered items.
+
+ ## The Cascade
+  - Source order
+    - linked style sheets
+    - embeded styles
+    - style attributes
+  - selectors
+    - wildcards
+    - type
+    - grouped
+    - class
+    - id
+    - descendant
+    - (direct) child
+    - adjacent sibling
+  - pseudo-selectors
+    - :hover
+    - :active
+    - :visited (not as common as it used to be)
+    - :focus
+    - :first-child
+    - :nth-child
+
+### Activity
+Build a 3-page website about a role-play quest.
+- home page
+- maps
+- items
+Each page needs to include
+- heading
+- navigation to the other pages
+- secondary heading
+- at least one paragraph
+lorum ipsum text is fine. placeholder images are fine

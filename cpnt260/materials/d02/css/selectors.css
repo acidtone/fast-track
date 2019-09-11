@@ -1,0 +1,63 @@
+/* 
+* {
+  color: purple;
+} 
+*/
+ /* type and grouped selectors */
+ul, h1 {
+  color: red;
+  color: green;
+}
+
+/* class selectors */
+.rings {
+  color: darkred;
+}
+
+/* id selector */
+#lists {
+  color: darkcyan;
+}
+
+/* descendant selector */
+
+ol li {
+  color: darkslategrey;
+}
+
+#weapons span {
+  color: darkgoldenrod;
+}
+/* direct child selector */
+
+#weapons > span {
+  color: navy;
+}
+
+/* adjacent sibling */
+
+#shoes + li {
+  color: saddlebrown;
+}
+
+/* general sibling */
+#pants ~ li {
+  color: saddlebrown;
+}
+
+/* psuedo-selectors */
+
+/* :hover */
+
+span:hover {
+  font-weight: bold;
+}
+
+/* first-child */
+/* doesn't work? */
+
+
+ul > li > ul > li:first-child {
+  font-style: italic;
+  font-weight: bold;
+}

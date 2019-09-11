@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Day 02 Examples</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- rarely do this -->
+  <style>
+    ul {
+      color: blue;
+    }
+  </style>  
+
+</head>
+<body>
+<h1>Day 02 Examples</h1>
+<h2>URLs Revisited</h2>
+<p><a href="https://www.example.com/index.php?submit=true&amp;name=tony"></a></p>
+<h2 id="lists">Activity: Nested list</h2>
+<ul>
+  <li>Armour
+    <ul>
+      <li>head
+        <ul>
+          <!-- Don't do this -->
+          <li style="color: rebeccapurple">helmets</li>
+          <li>hats</li>
+        </ul>
+      </li>
+      <li>chest
+        <ul>
+          <li>vest</li>
+          <li>half-plate</li>
+          <li>full-plate</li>
+        </ul>
+      </li>
+      <li>hands
+        <ul>
+          <li>gloves</li>
+          <li>guantlets</li>
+          <li class="rings">magic rings</li>
+        </ul>
+      </li>
+      <li>legs
+        <ul>
+          <li id="pants">pants</li>
+          <li>battle skirts</li>
+          <li>chaps</li>
+        </ul>
+      </li>
+      <li>feet
+        <ul>
+          <li id="shoes">shoes</li>
+          <li>boots</li>
+          <li>roller blades</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li id="weapons">
+    <span>Weapons</span>
+    <ul>
+      <li><span>edged</span>
+        <ul id="edged">
+          <li>swords</li>
+          <li>knives</li>
+          <li>axes</li>
+        </ul>
+      </li>
+      <li>blunt
+        <ul>
+          <li>bat</li>
+          <li>hammer</li>
+        </ul>
+      </li>
+      <li>projectile
+        <ul>
+          <li>bow</li>
+          <li>slingshot</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Backpack
+    <ol id="backpack">
+      <li>food</li>
+      <li>survival items</li>
+      <li>games</li>
+    </ol>
+  </li>
+</ul>
+<script>
+  // best (beginner) practice: add scripts before the closing body tag
+  // You don't have to know this... yet
+</script>
+</body>
+</html>
