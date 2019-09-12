@@ -21,19 +21,22 @@
 - Meta Thursday
 - Images
 - Floats
-- Positioning
-- Assignment #1 assigned
+- Background Images
 
 ### Day 04
+- Positioning
 - Flexbox
-- Assignment #1 due?
+- Assignment #1 assigned
 
 ### Day 05
-- CSS Grid
 - Review: fonts and colour
 - data-attributes
 - pseudo-elements
-- Creative text effects
+- creative text effects: vertical split
+- CSS Grid
+- Assignment #1 due
+- Assignment #2 assigned
+- Final Project announced
 
 ### Day 06
 - forms
