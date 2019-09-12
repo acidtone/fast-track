@@ -1,0 +1,49 @@
+body {
+  /* Set default font-size for em units */
+  font-size: 20px;
+}
+
+header, nav, main, footer {
+  /* set width */
+  width: 80vw;
+  max-width: 75ch;
+
+  /* set margins and padding */
+  margin: 1em auto;
+  padding: 0 1.5em;
+
+}
+
+aside {
+  /* set dimensions and margins */
+  width: 50vmin;
+  height: 50vmin;
+  margin: auto;
+
+  /* set borders */
+  border: black solid 1px;
+  /* make a circle */
+  border-radius: 50%;
+  
+  /* set background */
+  background-image: url('https://picsum.photos/1000/1000');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border: 1px solid black;
+  float: right;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+figcaption {
+  word-wrap: wrap;
+}
