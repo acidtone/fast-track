@@ -1,0 +1,76 @@
+body {
+  /* Set default font-size for em units */
+  font-size: 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav, main, footer {
+  /* set width */
+  width: 80vw;
+  max-width: 75ch;
+
+  /* set margins and padding */
+  margin: 1em auto;
+  padding: 0 1.5em;
+
+}
+
+/* Simple hero section */
+header {
+  margin: 0;
+  width: 100vw;
+  height: 85vh;
+
+  background-image: url('https://picsum.photos/2000/2000');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: skyblue;
+
+  background-blend-mode: hard-light;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 50vh;
+
+  text-align: center;
+
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+
+  width: 200px; /* not a great solution */
+
+  border: 1px solid black;
+
+  float: right;
+}
+
+aside {
+  /* make image square */
+  width: 30vmin;
+  height: 30vmin;
+
+  /* center image */
+  margin: auto;
+
+  background-image: 
+    url('https://picsum.photos/500/300'),
+    radial-gradient(skyblue,rebeccapurple);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 
+    center,
+    top left;
+
+  background-blend-mode: hard-light;
+
+  border: 3px solid #224655;
+
+  /* turn square into a circle */
+  border-radius: 50%;
+}
