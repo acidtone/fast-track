@@ -18,17 +18,22 @@
 - Progressive enhancement
 
 ### Day 03
-- Units
+- Meta Thursday
 - Images
 - Floats
 - Positioning
+- Assignment #1 assigned
 
 ### Day 04
+- Flexbox
+- Assignment #1 due?
+
+### Day 05
+- CSS Grid
 - Review: fonts and colour
 - data-attributes
 - pseudo-elements
 - Creative text effects
 
-### Day 05
-- Flexbox
-- CSS Grid
+### Day 06
+- forms
