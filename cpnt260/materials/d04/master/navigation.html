@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sample Navigation</title>
+  <style>
+    /* Retired Option: don't do this */
+    /* 
+    nav li {
+      float: left;
+    }
+    nav li:last-child {
+      float: none;
+    }
+   */
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+    }
+
+    /* New way: Flexbox */
+    nav ul {
+      display: flex;
+      margin: 0;
+
+    }
+
+    nav li {
+      flex-grow: 1;
+      text-align: center;
+    }
+
+
+    /* Demo Specific Styles */
+
+    body {
+      margin: 0;
+    }
+
+    nav ul {
+      padding-left: 0;
+      background-color: black;
+    }
+    nav li {
+      list-style-type: none;
+    }
+    nav a {
+      padding: .5em;
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: darkgrey;
+    }
+
+    main {
+      margin-top: 3em;
+    }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li id="nav-home"><a href="#">Home</a></li>
+      <li id="nav-about"><a href="#about">About</a></li>
+      <li id="nav-products"><a href="#products">Products</a></li>
+      <li id="nav-contact"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Our Website</h1>
+    <section id="about">
+      <h2>About us</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia veritatis, dignissimos doloribus id est ab nesciunt inventore esse enim. Ullam modi necessitatibus dolores. Doloribus commodi consectetur enim aut iusto quibusdam autem pariatur error perspiciatis illo mollitia, beatae eaque eos quaerat nam dolores. Architecto eaque magni officiis debitis, dolorem dignissimos nihil!</p>
+      <ul>
+        <li>Some item</li>
+        <li>Another Item</li>
+        <li>Yet another</li>
+      </ul>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, accusamus maxime culpa tempore libero quaerat dolor ullam eum, assumenda ea facere accusantium reiciendis, officiis laborum?</p>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia veritatis, dignissimos doloribus id est ab nesciunt inventore esse enim. Ullam modi necessitatibus dolores. Doloribus commodi consectetur enim aut iusto quibusdam autem pariatur error perspiciatis illo mollitia, beatae eaque eos quaerat nam dolores. Architecto eaque magni officiis debitis, dolorem dignissimos nihil!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, accusamus maxime culpa tempore libero quaerat dolor ullam eum, assumenda ea facere accusantium reiciendis, officiis laborum?</p>
+    </section>
+    <section id="contact">
+        <h2>Contact us</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia veritatis, dignissimos doloribus id est ab nesciunt inventore esse enim. Ullam modi necessitatibus dolores. Doloribus commodi consectetur enim aut iusto quibusdam autem pariatur error perspiciatis illo mollitia, beatae eaque eos quaerat nam dolores. Architecto eaque magni officiis debitis, dolorem dignissimos nihil!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, accusamus maxime culpa tempore libero quaerat dolor ullam eum, assumenda ea facere accusantium reiciendis, officiis laborum?</p>
+      </section>
+    </main>
+</body>
+</html>

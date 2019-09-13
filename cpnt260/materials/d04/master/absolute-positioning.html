@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Absolute Positioning</title>
+  <style>
+    div {
+      border: 5px solid black;
+    }
+
+    /* Positional Styles */
+    #box {
+      position: relative;
+    }
+
+    #circle {
+      position: absolute;
+      
+      top: 0; 
+      left: -5vw;
+      /* z-index: -1; */
+    }
+
+
+    /* Demo Specific Styles */
+    #box {
+
+      width: 50vmin;
+      height: 50vmin;
+      margin: 10vh auto;
+
+      border-color: rebeccapurple;
+      /* background-color: lightyellow; */
+      background-color: rgba(2555,255,224,.5);
+    }
+    #circle {
+      width: 10vmin;
+      height: 10vmin;
+
+      border-color: skyblue;
+      border-radius: 50%;
+
+      background-color: lightgrey;
+    }
+  </style>
+</head>
+<body>
+  <div id="box">
+    <div id="circle"></div>
+  </div>
+</body>
+</html>
