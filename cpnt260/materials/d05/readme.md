@@ -30,7 +30,7 @@
 
 ## CSS Grid
 - Video: [Grid Basics](https://youtu.be/FEnRpy9Xfes)
-- Grid terminology
+- Grid terminology and simple demo
   - container
   - items
   - cells
@@ -42,9 +42,13 @@
   - [CSS Grid Garden](https://cssgridgarden.com/)
   - [Simple Homepage Layout](https://codepen.io/acidtone/pen/MWgqaYg)
     - make the above page look like [this homepage](https://codepen.io/acidtone/pen/QejVBW)
-- Further Reading: the first 5 videos on [Grid by Example](https://gridbyexample.com/video/):
-  - defining a grid
-  - the fr unit
-  - repeat notation
-  - introducing minmax()
-  - introducing auto-placement and order
+- Reading for Day 06:
+  - The first 5 videos on [Grid by Example](https://gridbyexample.com/video/):
+    - defining a grid
+    - the fr unit
+    - repeat notation
+    - introducing minmax()
+    - introducing auto-placement and order
+  - [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
+  - [Logic in Media Queries](https://css-tricks.com/logic-in-media-queries/)
+  - [Using Media Queries For Responsive Design In 2018](https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/)
