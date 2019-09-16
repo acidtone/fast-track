@@ -5,7 +5,7 @@
     - [codepen example](https://codepen.io/acidtone/pen/oNvMrEE)
     - in a flexbox, margin: auto works on both axis
   - removes the need to explicit set width and height
-    - [codepend example](https://codepen.io/acidtone/pen/wvwxOMR)
+    - [codepen example](https://codepen.io/acidtone/pen/wvwxOMR)
   - localization
 - terminology
   - flex container
