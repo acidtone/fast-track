@@ -4,9 +4,13 @@
   - vertical centering
     - [codepen example](https://codepen.io/acidtone/pen/oNvMrEE)
     - in a flexbox, margin: auto works on both axis
+    - block elements are no longer 100% (because they are now flex items)
   - removes the need to explicit set width and height
     - [codepen example](https://codepen.io/acidtone/pen/wvwxOMR)
   - localization
+    - agnostic toward left, right up and down
+    - flexbox and gid use the terms start and end
+    - flexbox direction determines which axis uses justiy and which uses align
 - terminology
   - flex container
   - flex items
