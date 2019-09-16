@@ -21,6 +21,8 @@
 - basics of use
 - Activities
   - [Flexbox Froggy](https://flexboxfroggy.com/)
+  - [Flexbox nav](https://codepen.io/acidtone/pen/RwbYwVJ)
+    - make the above list look like [this list](https://codepen.io/acidtone/pen/oKjMaz)
 
 ## Progressive Enhancement: CSS overides
 - CSS error handling
