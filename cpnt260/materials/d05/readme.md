@@ -27,3 +27,24 @@
 ## Progressive Enhancement: CSS overides
 - CSS error handling
 - CSS overrides
+
+## CSS Grid
+- Video: [Grid Basics](https://youtu.be/FEnRpy9Xfes)
+- Grid terminology
+  - container
+  - items
+  - cells
+  - lines
+  - gap
+  - tracks
+  - explicit vs implicit
+- Activities
+  - [CSS Grid Garden](https://cssgridgarden.com/)
+  - [Simple Homepage Layout](https://codepen.io/acidtone/pen/MWgqaYg)
+    - make the above page look like [this homepage](https://codepen.io/acidtone/pen/QejVBW)
+- Further Reading: the first 5 videos on [Grid by Example](https://gridbyexample.com/video/):
+  - defining a grid
+  - the fr unit
+  - repeat notation
+  - introducing minmax()
+  - introducing auto-placement and order
