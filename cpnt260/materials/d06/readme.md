@@ -1,7 +1,10 @@
 # Day 06
 ### Resources
 - [Codepen](https://codepen.io/collection/DyMkML/)
+- [Complete Guid to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
 ## CSS Grid Continued
+- long and short hand properties
 - mixing track length definitions
 - fr unit
 - min-content
