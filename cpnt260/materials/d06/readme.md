@@ -13,7 +13,7 @@
 ## Grid Naming
 - line names
 - naming grid areas
-- laying out by namegrid area
+- laying out by named grid area
 - Activity: build this!
   - [Content-out Layout](https://alistapart.com/article/content-out-layout/#section6)
 
