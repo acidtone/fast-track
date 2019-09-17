@@ -1,4 +1,6 @@
 # Day 06
+### Resources
+- [Codepen]https://codepen.io/collection/DyMkML/)
 ## CSS Grid Continued
 - mixing track length definitions
 - fr unit
