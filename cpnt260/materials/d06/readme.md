@@ -3,7 +3,7 @@
 - [Codepen](https://codepen.io/collection/DyMkML/)
 - CSS Grid
   - [Complete Guid to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-  - [Grid by example] (https://gridbyexample.com/)
+  - [Grid by example](https://gridbyexample.com/)
 - [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 
