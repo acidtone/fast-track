@@ -33,6 +33,7 @@
   - Is the layout one or two dimensions?
   - Do you need defined columns?
   - Is flow layout enough?
+  - Do you need to change source order?
 - Where does the content band start and end?
 - Where are the cards? How do they behave at different viewport widths?
 
