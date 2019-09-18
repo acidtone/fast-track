@@ -19,7 +19,7 @@
 - Demo: laying out header, nav, aside, main, footer
 - Activity: create sample layouts for desktop, tablet and mobile devices
 
-## Media queries cont'd
+## Media queries
 - Demo: portrait vs landscape
 - Activity: body background colour at aspect breakpoint
 
