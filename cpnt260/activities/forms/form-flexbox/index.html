@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Character Classes</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    form {
+    }
+    form > div {
+      display: flex;
+      padding: .5em 1em;
+      align-items: center;
+    }
+
+    label {
+      width: 10ch;
+    }
+
+    input, select, textarea {
+      flex: 1;
+      margin: .5em 1em;
+    }
+    textarea {
+      height: 3em;
+    }
+    #story-label {
+      align-self: flex-start;
+    }
+  </style>
+</head>
+<body>
+  <header><h1>Create Character</h1></header>
+  <form action="" method="get">
+    <div>
+      <label for="name">Name</label>
+      <input id="name" type="text" name="class" placeholder="Enemies have nightmares of...">
+    </div>
+    <div>
+        <label for="colour">Fav Colour</label>
+        <input id="colour" type="text" name="colour" placeholder="Boots look great in..."><br>
+    </div>
+    <div>
+      <label for="alignment">Alignment</label>
+      <select name="alignment" id="alignment">
+        <option value="good">Good</option>
+        <option value="evil">Evil</option>
+      </select>
+    </div>
+    <div>
+      <label id="story-label" for="story">Back Story</label>
+      <textarea name="story" id="story" cols="30" rows="10" placeholder="Secret pain here..."></textarea>
+    </div>
+  </form>
+</body>
+</html>
