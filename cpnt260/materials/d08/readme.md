@@ -14,6 +14,7 @@
 - responsive images
   - max-width
   - preserving aspect ratio
+    - avoid setting width AND height on images
   - viewport units
   - object-fit
 - Videos
