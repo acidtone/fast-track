@@ -11,12 +11,14 @@
 - Activity: Grid upgrade
 
 ## Responsive galleries
-- Video: [Easy galleries with CSS Grid](https://youtu.be/tFKrK4eAiUQ)
 - responsive images
   - max-width
   - preserving aspect ratio
   - viewport units
   - object-fit
+- Videos
+  - [Easy galleries with CSS Grid](https://youtu.be/tFKrK4eAiUQ)
+  - [Introducing auto-fit/fill](https://youtu.be/2zxWEeBkjk0)
 - Demo: Grid gallery with auto-fill/fit
 - Activity: Flexbox gallery 
 
