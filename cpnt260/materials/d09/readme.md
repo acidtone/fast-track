@@ -35,12 +35,12 @@
 ## Assignment 3: Sign-in and registration splash pages
 - build two splash pages
 - Page 1 that contains:
-  - a logo (can be generic font icon or similar graphic
+  - a logo (can be generic font icon or similar graphic)
   - login fields: username, password, submit inputs
     - action -> '#'
     - method -> post
-  - overlapping elements
-  - a link (that looks like a button) to Page 2 
+  - overlapping elements (either using grid or absolute/relative positioning) 
+  - a 'Register' link (that looks like a button) to Page 2 
 - Page 2 that contains:
   - registration form (all required unless otherwise specified)
     - username
