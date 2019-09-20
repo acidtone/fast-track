@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blend Mode Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <aside>
+      <input id="hue" type="range" min="0" max="360" value="0">
+      <output for="hue">0deg</output>
+      <input id="sat" type="range" min="0" max="100" value="100">
+      <output for="sat">100%</output>
+      <input id="lum" type="range" min="0" max="100" value="50">
+      <output for="lum">50%</output>
+      <input id="alpha" type="range" step="0.01" min="0" max="1" value="1">
+      <output for="alpha">1</output>
+    </aside>
+    <section id="mode-list">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

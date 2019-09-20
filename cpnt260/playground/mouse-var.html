@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mix Blend Mode by Mouse Movement</title>
+  <style>
+    ::root {
+      --hue: 180;
+      --comp: 360;
+    }
+    body, html {
+      background: hsl(var(--hue), 100%, 50%);
+      height: 100%;
+    	overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    fieldset {
+      position: absolute;
+      top: 5vh;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+
+      font-size: 9vw;
+      color: hsl(var(--comp), 100%, 50%);
+      transition: 0.1s ease color;
+      white-space: nowrap;
+
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      mix-blend-mode: normal;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Based on: https://codepen.io/mandymichael/pen/NXvGbZ -->
+  <img src="https://picsum.photos/2000/1200" alt="Random Image">
+  <h1 id="heading">goodbye World!</h1>
+  <fieldset>
+    <select name="mode" id="mode">
+        <option>normal</option>
+        <option>multiply</option>
+        <option>screen</option>
+        <option>overlay</option>
+        <option>darken</option>
+        <option>lighten</option>
+        <option>color-dodge</option>
+        <option>color-burn</option>
+        <option>hard-light</option>
+        <option>soft-light</option>
+        <option>difference</option>
+        <option>exclusion</option>
+        <option>hue</option>
+        <option>saturation</option>
+        <option>color</option>
+        <option>luminosity</option>
+      </select>
+      <input id="slider" type="range" min="0" max="360" value="180">
+      <output id="mouse-x"></output>
+      <output id="mouse-y"></output>
+    </fieldset>
+    <script>
+      const root = document.documentElement;
+      const img = document.querySelector('img');
+      const outputX = document.querySelector('#mouse-x');
+      const outputY = document.querySelector('#mouse-y');
+
+      let heading = document.getElementById('heading');
+      console.log(document.getElementById('heading'));
+
+      mode.addEventListener("change", evt => {
+        img.style.mixBlendMode = mode.value;
+      });
+
+      // slider.addEventListener("input", evt => {
+      //   root.style.setProperty("--hue",slider.value);
+      //   root.style.setProperty("--comp",slider.value+180);
+      // });
+
+      document.addEventListener('mousemove', evt => {
+        let x = evt.clientX / innerWidth;
+        let y = evt.clientY / innerHeight;
+
+        root.style.setProperty("--hue",x * 360);
+        root.style.setProperty("--comp",x * 360 + 180);
+
+        mode.selectedIndex = Math.round(y * 15);
+
+        outputX.value = Math.round(x * 360);
+        outputY.value = Math.round(y * 15);
+        
+        img.style.mixBlendMode = mode[Math.round(y * 15)].value;
+
+      });
+    </script>
+</body>
+</html>

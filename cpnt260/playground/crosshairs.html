@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+      --width1: 1fr;
+      --width2: 1fr;
+      --height1: 1fr;
+      --height2: 1fr;
+
+      --posX: 0;
+      --posY: 0;
+
+      background-image: radial-gradient(at var(--posX) var(--posY), skyblue, rebeccapurple);
+    }
+    main {
+      height: 100vh;
+
+      display: grid;
+      grid-template-columns: var(--width1) var(--width2);
+      grid-template-rows: var(--height1) var(--height2);
+    }
+    
+    section {
+      border: 1px solid rebeccapurple;
+    }
+
+    template {
+      display: block;
+      margin: .75em;
+      padding: .25em .5em;
+      white-space: nowrap;
+
+      position: absolute;
+      top: var(--posY);
+      left: var(--posX);
+
+      background-color: white;
+      border: 1px solid rebeccapurple;
+    }
+  </style>
+</head>
+<body id="crosshairs">
+  <main>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+  </main>
+  <template></template>
+  <script>
+        document.addEventListener('mousemove', evt => {
+        let x = evt.clientX / innerWidth;
+        let y = evt.clientY / innerHeight;
+
+        let col1 = x * 2;
+        let col2 = 2 - col1; 
+
+        let row1 = y * 2;
+        let row2 = 2 - row1;
+
+        crosshairs.style.setProperty("--width1",`${col1}fr`);
+        crosshairs.style.setProperty("--width2",`${col2}fr`);
+        crosshairs.style.setProperty("--height1",`${row1}fr`);
+        crosshairs.style.setProperty("--height2",`${row2}fr`);        
+
+        crosshairs.style.setProperty("--posX",`${evt.clientX}px`);        
+        crosshairs.style.setProperty("--posY",`${evt.clientY}px`);        
+
+        let template = document.querySelector('template');
+        template.innerText = `X: ${evt.clientX}px
+                        Y: ${evt.clientY}px`;
+
+      });
+  </script>
+</body>
+</html>
