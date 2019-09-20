@@ -18,6 +18,9 @@
 - Demo: Form limiters (:)
 - Activity: Callout boxes
 
+## Sign-in/Registration layouts
+- Activity: research common patterns 
+
 ## Optional: Vertical split
 - Creative text effects: adding presentation layers
 - Demo: Vertical split
