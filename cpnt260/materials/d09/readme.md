@@ -7,6 +7,7 @@
 
 ## Transitions
 - Activity: Hamburger hunt
+  - [Menu Examples](https://www.mockplus.com/blog/post/hamburger-menu-examples)
 - pseudo-code
 - menu sliders
 - modal opacity
