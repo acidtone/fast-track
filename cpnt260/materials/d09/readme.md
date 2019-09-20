@@ -7,6 +7,7 @@
 
 ## Transitions
 - Activity: Hamburger hunt
+- pseudo-code
 - menu sliders
 - modal opacity
 
@@ -17,13 +18,13 @@
 - Demo: Form limiters (:)
 - Activity: Callout boxes
 
-## Optiona: Vertical split
+## Optional: Vertical split
 - Creative text effects: adding presentation layers
 - Demo: Vertical split
 - Activity: upgrade using data-attributes and attr()
 
-## Styling file upload buttons
+## Optional: Styling file upload buttons
 - Activity: tutorial hunt
 
-## CSS Variables
+## Optional: CSS Variables
 - organizing colours
