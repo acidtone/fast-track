@@ -25,10 +25,10 @@
 
 ## Nav Bars, old a new
 1. semantic nav
-  - nav tag
-  - undordered list
-  - links inside li tags
-  - add classes and ids as needed
+   - nav tag
+   - undordered list
+   - links inside li tags
+   - add classes and ids as needed
 2. remove bullets (if needed)
 3. remove padding
 4. make buttons more buttony
