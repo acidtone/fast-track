@@ -39,4 +39,4 @@
 
 ## Final Project
 - Assigned at end of day
-- Value of CPNT 260 final makr: 35%
+- Value of CPNT 260 final mark: 35%
