@@ -28,6 +28,14 @@
 
 ## Review
 - Assignment #2
+  - Common issues
+    - html and/or css did not validate
+    - line length and or font-size not appropriate for the screen size
+    - image aspect ratio not preserved
+    - non-standard file names
+    - font awesome icons not present
+    - nav links didn't work
+    - responsive design stress (columns on mobile)
 - Slides from previous cohorts
 - Fall 2019 readmes
 - Anything else?
