@@ -22,7 +22,8 @@
   - images
   - scripts
   - view rendering
-    - transitions love transforms
+    - css animations: transitions generally out perform keyframes
+    - transitions love transforms and opacity
     - transitions hate changes to the box model
 
 ## Review
